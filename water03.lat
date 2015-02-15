@@ -1,0 +1,122 @@
+% file:  water03.lat             --  derived from water02.lat   (my response to sharon's suggestions)
+
+\setlength{\voffset}{0mm}
+% {17.5mm}
+\setlength{\hoffset}{0mm}
+
+\documentclass[letterpaper]{article}
+% \usepackage{ifthen}
+\usepackage{fancyhdr}
+
+\pagenumbering{arabic}
+% \nofiles
+
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-4.75in}
+
+\setlength{\topmargin}{0in}
+\setlength{\headheight}{20pt}
+\setlength{\headsep}{1in}
+% \setlength{\topskip}{0pt}
+
+\setlength{\textheight}{7.5in}
+% \setlength{\textheight}{\paperheight}
+% \addtolength{\textheight}{-2in}
+
+\setlength{\oddsidemargin}{1.25in}
+\setlength{\evensidemargin}{0pt}
+\setlength{\marginparwidth}{1in}
+\setlength{\marginparsep}{0pt}
+
+\setlength{\footskip}{30pt}
+\setlength{\parskip}{10pt}
+\setlength{\parindent}{0pt}
+
+% these can only be set in a \newenvironment
+% \setlength{\topsep}{0pt}
+% \setlength{\partopsep}{0pt}
+% \setlength{\parsep}{3pt}
+% \setlength{\itemsep}{3pt}
+% \setlength{\leftmargin}{}
+% \setlength{\rightmargin}{}
+% \setlength{\listparindent}{}
+% \setlength{\labelwidth}{}
+% \setlength{\labelsep}{}
+% \setlength{\itemindent}{}
+
+% \setlength{\footrulewidth}{.4pt}
+\renewcommand{\footrulewidth}{.4pt}
+
+% \pagestyle{empty}
+\pagestyle{fancy}
+
+\lhead[even]{\footnotesize (267) 882-7777}
+\chead[even]{\footnotesize\textbf{John Kirk}}
+\rhead[even]{\footnotesize $<$johnnkirk@gmail.com$>$}
+\lfoot[even]{\footnotesize December 25, 2014}
+\cfoot[even]{\footnotesize\textbf{John Kirk}}
+\rfoot[even]{\textbf{\small Page \thepage\ of 1}}
+
+\newenvironment{itemlist}{\begin{list}{$\bullet$}{
+  % these can only be set in a \newenvironment
+  \setlength{\topsep}{2pt}
+  \setlength{\partopsep}{0pt}
+  \setlength{\parsep}{4pt}
+  \setlength{\itemsep}{0pt}
+  \setlength{\leftmargin}{20pt}
+  % \setlength{\rightmargin}{0pt}
+  \setlength{\listparindent}{8pt}
+  % \setlength{\labelwidth}{0pt}
+  % \setlength{\labelsep}{0pt}
+  % \setlength{\itemindent}{0pt}
+  }}{\end{list}}
+
+\newcommand{\subhead}[1]{{\setlength{\parindent}{0pt}
+                          \bigskip\textbf{#1}\par}}
+
+\newcommand{\subfoot}[1]{{\setlength{\parindent}{0pt}
+                          \medskip\footnotesize\textbf{#1}\par}}
+
+\begin{document} %\strut\medskip
+\begin{Large}\bf\centerline{\LARGE Water}
+\bigskip
+\bigskip
+\bigskip
+I am still\\
+\\
+\\
+flowing\\
+\\
+\\
+some cannot see me\\
+\\
+\\
+only reflected sunset colors\\
+\\
+\\
+lean over my bank\\
+\\
+\\
+you can see me\\
+\\
+\\
+and life forms I host\\
+\\
+\\
+but first you must see\\
+\\
+\\
+entirely afresh\\
+\\
+\\
+your self\\
+\end{Large}
+
+  \bigskip
+  \bigskip\hfill --- John Kirk
+%   \bigskip
+% \newpage
+% 
+%   \strut\bigskip
+% 
+  \end{document}
